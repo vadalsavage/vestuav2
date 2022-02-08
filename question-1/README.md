@@ -4,4 +4,4 @@
 
 # Razonamiento
 
-_Escribir aquí el razonamiento al puzzle_
+_Considerado que el orden en el que se subira cada peldaño importa. Se usa un for para contar cuantas combinaciones hay para cierta cantidad de subida de dos peldaños. Es decir se empieza con un numero maximo de pasos, luego se agrega un paso de dos peldaños, luego dos y asi sucecivamente. _
