@@ -22,4 +22,4 @@
 
 # Razonamiento
 
-_Escribir aquí los supuestos asumidos, reflexiones y explicaciones de la solución_
+_Primero se crea la funcion para eliminar los objetos iguales, luego se procede a crear la funcion para cada elemento usando "foreach" para crear los bucles necesarios en el contreo de eventos. Finalmente se procede a escrivir en el archivo csv el respectivo resultado._
