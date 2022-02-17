@@ -19,6 +19,7 @@
   "homepage": "https://github.com/vadalsavage/vestuav2#readme",
   "dependencies": {
     "csv-parser": "^3.0.0",
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "minimist": "^1.2.5"
   }
 }

@@ -4,15 +4,14 @@
  * $ node scritp.js 100
  */
 
-var numer;
+
 //insertar numero de peldaños
-process.stdout.write(`Introduzca el numero de peldaños: `);
-process.stdin.on('data', function(data){
-    numer=data.toString().trim();
-    result=contar(numer);
-    process.stdout.write(`Total de combinaciones ${result}`);
-    process.exit();
-  })
+
+var numer= process.argv[2];
+  var  result=contar(numer);
+    console.log(`Total de combinaciones ${result}`);
+
+
 //declaramos la funcion factorial que se usan en este caso de combinatorias
 function factorial(n)
 {if (n==0 || n==1){
