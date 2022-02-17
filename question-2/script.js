@@ -21,7 +21,7 @@ const csvWriter = createCsvWriter({
   ]
 });
 
-fs.createReadStream('BrowsingEvents.csv')
+fs.createReadStream(`${args}`)
  .pipe(csv({}))
  .on('data',(data)=> results.push(data))
  .on('end',()=>{
