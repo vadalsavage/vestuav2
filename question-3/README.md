@@ -16,4 +16,4 @@
 
 # Razonamiento
 
-_Escribir aquí los supuestos asumidos, reflexiones y explicaciones de la solución_
+_Dentro de la funcion se usa un bucle para iterar cada valor del string. A continucion se escogen solo los caracteres de parentesis. Luego se elige el orden en el que debe ir  y las unicas condiciones correctas. Todo lo demas debe ser falso ya que no cumple con las condiciones dadas. Para evitar cualquier error se pone una condicion  al final el caso verdadero que se da si se sale del buble._
